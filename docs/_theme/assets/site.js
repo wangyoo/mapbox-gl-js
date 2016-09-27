@@ -39,7 +39,6 @@ function showHashTarget(hash) {
   var targetId = hash && hash.substring(1);
   if (!targetId) return;
   var hashTarget = document.getElementById(targetId);
-  if (!hashTarget) return;
   var toggleInside = hashTarget.querySelector('.hidden.toggle-target');
   var toggleSibling = hashTarget.querySelector('.toggle-sibling');
   if (toggleInside && toggleSibling) {
