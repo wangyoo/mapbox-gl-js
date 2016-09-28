@@ -68,4 +68,5 @@ Object.defineProperty(mapboxgl, 'accessToken', {
  * @return {boolean}
  * @example
  * mapboxgl.supported() // = true
+ * @see [Check for browser support](https://www.mapbox.com/mapbox-gl-js/example/check-for-support/)
  */
