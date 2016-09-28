@@ -47,6 +47,7 @@ Object.defineProperty(mapboxgl, 'accessToken', {
  * @var {string} accessToken
  * @example
  * mapboxgl.accessToken = myAccessToken;
+ * @see [Display a map](https://www.mapbox.com/mapbox-gl-js/examples/)
  */
 
 /**
